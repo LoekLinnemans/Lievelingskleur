@@ -11,13 +11,16 @@ func kleurlijst() []map[string]string {
 		{"blauw": "Blauw zoals de lucht."},
 		{"groen": "Groen van de natuur."},
 		{"geel": "Geel als de stralen van de zon."},
+		{"oranje": "Oranje zoals de zonsondergang."},
+		{"paars": "Paars zoals de lavendel."},
+		{"roze": "Roze zoals de bloesem."},
 	}
 	return kleuren
 }
 
 func gebruikerInput() string {
 
-	input := "groen"
+	input := "roze"
 	return input
 }
 
