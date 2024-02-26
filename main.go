@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 func kleurlijst() []map[string]string {
@@ -41,5 +42,6 @@ func main() {
 		fmt.Println(tekst)
 	} else {
 		fmt.Println("Kleur niet gevonden.")
+		os.Exit(1)
 	}
 }
