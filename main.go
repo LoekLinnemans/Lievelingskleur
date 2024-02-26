@@ -21,7 +21,7 @@ func kleurlijst() []map[string]string {
 
 func gebruikerInput() string {
 
-	input := "roze"
+	input := "bruin"
 	return input
 }
 
@@ -41,7 +41,6 @@ func main() {
 	if found {
 		fmt.Println(tekst)
 	} else {
-		fmt.Println("Kleur niet gevonden.")
 		os.Exit(1)
 	}
 }
