@@ -21,7 +21,11 @@ func kleurlijst() []map[string]string {
 
 func gebruikerInput() string {
 
-	input := "bruin"
+	var input string
+
+	fmt.Println("vul een kleur in:")
+
+	fmt.Scanln(&input)
 	return input
 }
 
