@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 )
 
@@ -45,6 +46,7 @@ func main() {
 	if found {
 		fmt.Println(tekst)
 	} else {
+		log.Println("Kleur niet gevonden")
 		os.Exit(1)
 	}
 }
